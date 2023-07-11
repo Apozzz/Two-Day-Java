@@ -33,6 +33,7 @@ After enclosures are saved, run POST /api/v1/animals command with animals JSON f
     - "Medium" enclosure is of 2 size units
     - "Large" enclosure is of 4 size units
     - "Huge" enclosure is of 8 size units
+      
 That means "Large" enclosure holds 2 times more animals than "Medium" and so on.
 
 2. According to this logic, enclosure ratio is calculated (to know how many animals 1 size unit should hold)
@@ -80,7 +81,7 @@ spring.datasource.password=db_password
 
 #### Running project code with containers
 
-1. Create docker-compose.yml file
+1. Copy docker-compose.yml file
 2. Go to directory where docker-compose.yml is stationed and run command:
 ```
 docker-compose up -d
