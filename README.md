@@ -2,6 +2,9 @@
 
 The Zoo Animals Management System is a Java application that allows you to manage animals and enclosures in a zoo. It provides functionality for adding, retrieving, and removing animals and enclosures, as well as assigning animals to enclosures based on their food requirements and available space.
 
+## Author
+Arnas Bosas - bosas.arnas2000@gmail.com
+
 ## Features
 
 - Add new animals to the system
